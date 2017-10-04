@@ -1,0 +1,1676 @@
+Shift Instructions for build: v.3.9.15.Progress
+---
+
+
+Color Balancing (U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+For this task, you will be sorting robot arms. These arms go straight to the robot assembly department. The Company is trying to reduce excess repetition of color for this line of robots.
+
+  - Press LEFT SHIFT if you see an ARM that is the same color as the one you saw {0} ARM(s) ago.
+  - Press RIGHT SHIFT otherwise.
+
+-----------
+
+
+Duplicate Mitigation (U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+In this task, you will be in charge of managing production of white robot arms.  Each arm has an ID number on its delivery platform for later use in the assembly department. We want to ensure an even distribution of ID numbers further down the line.
+
+  - Press LEFT SHIFT if you see an ARM with an ID number matching the one you saw {0} ARM(s) ago.
+  - Press RIGHT SHIFT otherwise.
+
+-----------
+
+
+Basic Fitting (U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+A data error in the system erased the previous shift's work log. You will need to go through all the robots they constructed and scan any duplicates you find.
+
+- Press LEFT SHIFT if you see a ROBOT that is identical to the one you saw {0} ROBOT(s) ago.
+- Press RIGHT SHIFT otherwise.
+
+-----------
+
+
+Symbolic Matching (U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+The paint department's ordering system fell out of synchronization due to an error caused by daylight savings time. This caused a few symbols to get printed in duplicate. Send all 'bots to shipping except for duplicates. Send all duplicates back to the paint department for stripping.
+
+- Press RIGHT SHIFT if you see an ICON that is identical to the one you saw {0} ICON(s) ago.
+- Press LEFT SHIFT otherwise.
+
+-----------
+
+
+Organism Culling (U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+This line of robot is designed to recognize animals and catalog them for scientific purposes. The 'bots have limited memory capacity, so you need to make a pass through its hard drive to limit the amount of repeated animals.
+
+  - Press RIGHT SHIFT if you see a PICTURE that is the same PICTURE as the one you saw {0} PICTURE(s) ago.
+  - Press LEFT SHIFT otherwise.
+
+-----------
+
+
+Count Quantizing (U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+This next task is a very basic programming test to help ease you into this department. That being said, it is very important that these construction 'bots understand basic numbers. Please pay attention.
+
+  - Press RIGHT SHIFT if you see a NUMBER that is the same NUMBER as the one you saw {0} NUMBER(s) ago.
+  - Press LEFT SHIFT otherwise.
+
+-----------
+
+
+Memory Management(U)
+Automaton: Level 1 Update n-back, n = 1, match% = 0.33
+For this task you will be training a gardening 'bot to better recognize snakes. We have limited memory so we want to reduce duplicate images stored in the 'bot's hard drive.
+
+  - Press RIGHT SHIFT if you see a SNAKE that is the same as the SNAKE from {0} SNAKE(s) ago.
+  - Press LEFT SHIFT otherwise.
+
+-----------
+
+
+Green Synergizing (I)
+Automaton: Level 1 Inhibit Go-NoGo, inhibit% = 0.25
+The Company has received a large order for green robots, so it is time for the factory to synergize and prepare all green robot parts for assembly. You will be in charge of sorting all of the green parts out of standard circulation, except those with a yellow platform light activated. The yellow platform marks faulty parts that aren't fit for production.
+
+  - Press LEFT SHIFT when you see a GREEN part.
+  - Press RIGHT SHIFT for all other parts.
+  - DON'T press anything if the platform's YELLOW LIGHT is activated.
+
+-----------
+
+
+Locomotive Training (I)
+Automaton: Level 1 Inhibit Go-NoGo, inhibit% = 0.25
+The testing department is examining how well the new 'bots can jog. They have found a multitude of malfunctioning legs that gallop and need replacement legs. Send all legs from this new shipment to testing. If the platform's yellow light is activated, that leg is required elsewhere.
+
+  - Press RIGHT SHIFT when you see a LEG.
+  - Press LEFT SHIFT for all other parts.
+  - DON'T press anything if the platform's YELLOW LIGHT is activated.
+
+-----------
+
+
+Green Synergizing 2 (I)
+Automaton: Level 1 Inhibit Go-NoGo, inhibit% = 0.25
+The Company has received a large order for green robots, so it is time for the factory to synergize and prepare all green robot parts for assembly. You will be in charge of preparing green robots from pre-selected parts. Robots that appear with the yellow door light activated are defective and aren't fit for release.
+
+  - Press RIGHT SHIFT when you see a GREEN Robot.
+  - Press LEFT SHIFT for all other robots.
+  - DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Fault Limitations (I)
+Automaton: Level 1 Inhibit Go-NoGo, inhibit% = 0.25
+Space rats, or sprats, got into one of our warehouses and chewed up a large number of parts. Remove all broken parts on any 'bots you see and send them to maintenance. If the yellow scan light is activated, send that 'bot back for sprat fluid collection. 
+
+  - Press LEFT SHIFT when you see a Robot with BROKEN PARTS.
+  - Press RIGHT SHIFT for all other robots.
+  - DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Snake Identification (I)
+Automaton: Level 1 Inhibit Go-NoGo, inhibit% = 0.25
+For this task you'll need to program the robot to properly recognize snakes. The Company doesn't want to deal with a repeat of the Hose Festival Massacre of '45.
+
+  - Press LEFT SHIFT when you see a SNAKE.
+  - Press RIGHT SHIFT for all other images.
+  - DON'T press anything if the YELLOW CAUTION SIGN is activated.
+
+-----------
+
+
+Transportationization (I)
+Automaton: Level 1 Inhibit Go-NoGo, inhibit% = 0.25
+Pardon me, Employee. Is this the Chattanooga choo choo? Of course not. It looks nothing like a train, so it is humorous. Enjoy thoroughly. Now, program this bot with words relating to VEHICLES.
+
+  - Press LEFT SHIFT when you see a word related to VEHICLES.
+  - Press RIGHT SHIFT for all other words.
+  - DON'T press anything if the RED Indicator Light is illuminated.
+
+-----------
+
+
+Gamifying Medicine (I)
+Automaton: Level 1 Inhibit StopSignal, inhibit% = 0.25
+In this task you'll be constructing robots for both sport activities and the medical field. If you recieve a robot with the yellow door light activated, that robot is not fit for construction.
+
+  - Press LEFT SHIFT if the ICON is related to SPORTS.
+  - Press RIGHT SHIFT if the ICON is related to MEDICAL.
+  - DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Colorizing Careers (I)
+Automaton: Level 1 Inhibit StopSignal, inhibit% = 0.25
+In this task you'll be sorting 'bots by color. If you recieve a robot with the yellow door light activated, that robot is not fit for construction.
+
+  - Press LEFT SHIFT if the ROBOT is YELLOW.
+  - Press RIGHT SHIFT if the  ROBOT is PINK.
+  - DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Limb Management (I)
+Automaton: Level 1 Inhibit StopSignal, inhibit% = 0.25
+A large number of parts were damaged due to human error while en route from one of our parts facilities. We received a rush order of replacement parts, and you will need to sort them properly. If you see a part delivered with the yellow light activated on the platform, that part is not fit for assembly.
+
+  - Press LEFT SHIFT if the part is an ARM.
+  - Press RIGHT SHIFT if the part is a LEG.
+  - DON'T press anything if the platform's YELLOW LIGHT is activated.
+
+-----------
+
+
+Stereoizing (I)
+Automaton: Level 1 Inhibit StopSignal, inhibit% = 0.25
+These heads are destined for the next round of eye placement. Our assembly experts specialize in either left or right eyes, so you'll be sorting them out now to prevent mixups further down the line.
+ If you see a part delivered with the yellow light activated on the platform, that part is not fit for assembly.
+
+  - Press LEFT SHIFT if the EYE is in the LEFT column.
+  - Press RIGHT SHIFT if the EYE is in the RIGHT column.
+  - DON'T press anything if the platform's YELLOW LIGHT is activated.
+
+-----------
+
+
+Emotional Imprinting (I)
+Automaton: Level 1 Inhibit StopSignal, inhibit% = 0.25
+This batch of robot heads has been designated for nursing and hospice care applications, so it is vitally important that they can clearly differentiate between patients who are happy and those who are not. Unfortunately, the order got mixed with some heads destined for military operations, and they don't want those 'bots to care about who they'll be dealing with. Those heads will be marked with a caution light, so don't program them when you see it.
+
+  - Press LEFT SHIFT if the face is HAPPY.
+  - Press RIGHT SHIFT if the face is NOT HAPPY.
+  - DON'T press anything if the YELLOW CAUTION SIGN is activated.
+
+-----------
+
+
+Map Orgling (I)
+Automaton: Level 1 Inhibit StopSignal, inhibit% = 0.25
+Basic navigation is important for all sorts of robots. This task is a general training course designed to preload the head with the knowledge it needs before undergoing more detailed training in the future.
+
+  - Press LEFT SHIFT if the HIGHLIGHTED LOCATION is in the LEFT COLUMN of the map.
+  - Press RIGHT SHIFT if the HIGHLIGHTED LOCATION is in the RIGHT COLUMN of the map.
+  - DON'T press anything if the YELLOW CAUTION SIGN is activated.
+
+-----------
+
+
+Special Orders (S)
+Automaton: Level 1 Switch NoModeSwitch ED
+The Company needs you to process two orders for parts. One order is for arms, and the other is for broken parts. I hear they brand those with our competitor's logo and sell them overseas. Anyway, the color ring on the surface of the platform will help determine which order you are fulfilling for each delivery.
+
+RED Ring on Platform:
+  - Press LEFT SHIFT for ARMS.
+BLUE Ring on Platform:
+  - Press RIGHT SHIFT for BROKEN PARTS.
+
+-----------
+
+
+Monocular Inspection (S)
+Automaton: Level 1 Switch NoModeSwitch ED
+New heads have been received and The Company is running multiple safety checks on their ocular slots. You are required to sort out certain monocular positionings, but only the ones marked appropriately for your station. Let all others pass on to the next station.
+
+RED Ring on Platform:
+  - Press LEFT SHIFT for EYES in the LEFT or RIGHT columns.
+
+BLUE Ring on Platform:
+  - Press RIGHT SHIFT for EYES in the TOP or BOTTOM rows.
+
+-----------
+
+
+Head Hueing (S)
+Automaton: Level 1 Switch NoModeSwitch ED
+An order has come in for BAT-EARED and SQUARE headed robots. Males in the 18-35 demographic tend to purchase BAT-EARED 'bots and enjoy the color BLUE. The will also accept even a SQUARE head if it has a "cool" logo.
+
+Robot has a BAT-EARED head:
+  - Press LEFT SHIFT for BLUE Robots.
+
+Robot has a SQUARE head:
+  - Press RIGHT SHIFT for Robots with MILITARY ICONS.
+
+-----------
+
+
+Fracture Mitigation (S)
+Automaton: Level 1 Switch NoModeSwitch ED
+Another order was sent back on account of broken limbs. Two departments will be utilized to correct this order as quickly as possible. You will be working alongside maintenance in sorting these defects appropriately. Be sure to only sort the ones you are required to. 
+
+Robot has a SQUARE head:
+  - Press LEFT SHIFT for Robots with BROKEN ARMS.
+
+Robot has a BAT-EARED head:
+  - Press RIGHT SHIFT for PINK Robots.
+
+-----------
+
+
+Genderization (S)
+Automaton: Level 1 Switch NoModeSwitch ED
+The Company is rolling out a new line of companion 'bots, so this batch of heads needs to understand the gender of a face and something about the feeling you call "hapiness". The red and blue indicator lights will help guide your decision making, so watch for those.
+
+RED indicator light:
+  - Press LEFT SHIFT for MALE.
+
+BLUE indicator light:
+  - Press RIGHT SHIFT for FACES that are HAPPY.
+
+-----------
+
+
+Lesson Planning (S)
+Automaton: Level 1 Switch NoModeSwitch ED
+This basic math lesson is designed to prepare the 'bot for future training as a first-grade-teacher-bot. Do it for the kids. The red and blue indicator lights will help guide your programming.
+
+BLUE indicator light:
+  - Press LEFT SHIFT for ODD NUMBERS.
+
+RED indicator light:
+  - Press RIGHT SHIFT for NUMBERS GREATER than 10.
+
+-----------
+
+
+Part Number Balancing (S)
+Automaton: Level 1 Switch NoModeSwitch ID
+This task will have you sorting two orders. Each platform will be marked with an ID number and a colored ring. Sorting will be determined as follows:
+
+Order 1: RED ring
+  - Press LEFT SHIFT for numbers less than 5.
+  - Press RIGHT SHIFT for numbers greater than 5.
+Order 2: BLUE ring
+  - Do the reverse of Order 1.
+  - Press RIGHT SHIFT for numbers less than 5.
+  - Press LEFT SHIFT for numbers greater than 5.
+
+-----------
+
+
+Altitude Viewing (S)
+Automaton: Level 1 Switch NoModeSwitch ID
+This task will have you sorting two orders. Each platform will be marked with an ID number and a colored ring. Sorting will be determined as follows:
+
+Order 1: RED ring
+  - Press LEFT SHIFT for EYES in the TOP row.
+  - Press RIGHT SHIFT for EYES in the BOTTOM.
+Order 2: BLUE ring
+  - Do the reverse of Order 1.
+  - Press RIGHT SHIFT for EYES in the TOP row.
+  - Press LEFT SHIFT for EYES in the BOTTOM.
+
+-----------
+
+
+Chestial Numbering (S)
+Automaton: Level 1 Switch NoModeSwitch ID
+This task will have you building two batches of 'bots. Each 'bot will be marked with an ID number. The 'bot's head dictates how it is to be constructed.
+
+Order 1: BAT EARED head
+  - Press LEFT SHIFT for ODD numbers.
+  - Press RIGHT SHIFT for EVEN numbers.
+
+Order 2: SQUARED OFF head
+  - Do the reverse of Order 1.
+  - Press RIGHT SHIFT for ODD numbers.
+  - Press LEFT SHIFT for EVEN numbers.
+
+-----------
+
+
+Designation Tinting (S)
+Automaton: Level 1 Switch NoModeSwitch ID
+We are happy to report that World War 5b v.2 has really boosted our sales recently. We received another large order for military AND medical 'bots. Each 'bot is branded with job specific icons and color-coded, based on which parts they need, to make it less confusing.
+
+Order 1: MILITARY Icon
+  - Press LEFT SHIFT for RED robots.
+  - Press RIGHT SHIFT for GREEN robots.
+
+Order 2: MEDICAL Icon
+  - Do the reverse of Order 1.
+  - Press RIGHT SHIFT for RED robots.
+  - Press LEFT SHIFT for GREEN robots.
+
+-----------
+
+
+Job Differentiation (S)
+Automaton: Level 1 Switch NoModeSwitch ID
+This next head belongs to a dual-purpose chef/tactical vehicle operations 'bot. You'll need to program into its memory words that are important to both jobs. The head has two hard drives to store information, and you'll be switching which drive to imprint words on as you go.
+
+Drive 1: RED Indicator Light
+  - Press LEFT SHIFT for words related to COOKING.
+  - Press RIGHT SHIFT for words related to VEHICLES.
+Drive 2: BLUE Indicator Light
+  - Do the reverse of Order 1.
+  - Press RIGHT SHIFT for words related to COOKING.
+  - Press LEFT SHIFT for words related to VEHICLES.
+
+-----------
+
+
+Eye Inspection (U/I)
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back,n-back: 1, Inhibit% = 0.25
+Eye placement on a robot's head is very important for its intended function. We need to organize to ensure an even distribution across all models. Some heads will be marked with a blue ring. DO NOT sort these heads. Trust me.
+
+  - Press LEFT SHIFT if the EYE is located in the same position as the EYE you saw {0} EYE(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the platform has a BLUE ring.
+
+-----------
+
+
+Head and Shoulders (U/I)
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back,n-back: 1, Inhibit% = 0.25
+[To-the-point-mode_ initialized]: Programming department needs heads. Testing department needs arms. Certain duplicates will be excluded.[/end_to-the-point-mode]
+
+  - Press LEFT SHIFT if the PART is the same as the PART you saw {0} PART(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the YELLOW platform light is LIT.
+
+ <b>ALERT!</b> Color is unimportant in this task. Pay attention to part shape only!
+
+-----------
+
+
+Odditizing (U/I)
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back,n-back: 1, Inhibit% = 0.25
+The programming department is working on something "odd". They will need all of the platforms marked with odd numbers. You can send the even parts to assembly. Neither department wants to be too odd or too even, so let duplicate numbers pass by if they appear too close together.
+
+  - Press LEFT SHIFT if the NUMBER is ODD.
+  - Press RIGHT SHIFT if the NUMBER is EVEN.
+  - DON'T press anything if the NUMBER is the same as the NUMBER you saw {0} NUMBER(s) ago.
+
+-----------
+
+
+Chest Digitizing (U/I)
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back,n-back: 1, Inhibit% = 0.25
+You are required to help catalog the newest set of 'bots. These 'bots must be properly mixed to prevent fraternization. You will be looking for these duplicate bot IDs. Some 'bots may be broken. Please do not sort these.
+
+  - Press LEFT SHIFT if the NUMBER is the same as the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Limb Reparations (U/I)
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back,n-back: 1, Inhibit% = 0.25
+A new metal composite is being tested on some new parts. Regrettably, many of these parts are inferior and have fallen apart. Remove busted parts from the 'bots or, if the 'bot is still in tact, add missing parts and ship it. Send back duplicates for further testing. 
+
+  - Press LEFT SHIFT if the LIMBS are NOT BROKEN.
+  - Press RIGHT SHIFT if the LIMBS are BROKEN.
+  - DON'T press anything if the ROBOT is the identical to the ROBOT you saw {0} ROBOT(s) ago.
+
+-----------
+
+
+Face Numbering (U/I)
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back,n-back: 1, Inhibit% = 0.25
+Robot facial recognition software depends on the property of unique IDs to categorize human faces. It's all very technical. All you need to do is look for duplicate face IDs so future robots do not get confused. It's not good when robots get confused.
+
+  - Press LEFT SHIFT if the NUMBER is identical to the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the YELLOW CAUTION sign is lit.
+
+-----------
+
+
+Cranial Equilibrium (U/I)
+Automaton: Level 2 Update/Inhibit GoNoGo n-back,n-back: 1, match% = 0.33
+Assembly is in need of a varied head selection for the current order. You need to filter out duplicate heads from the incoming shipment. Platforms with blue rings are special orders and have to go to assembly, even if the head is a duplicate.
+
+  - Press RIGHT SHIFT for HEADS identical to the one you saw {0} HEAD(s) ago.
+  - Press LEFT SHIFT if the head is NOT a match.
+  - DON'T press anything if the platform has a BLUE ring.
+
+-----------
+
+
+Arm Matching (U/I)
+Automaton: Level 2 Update/Inhibit GoNoGo n-back,n-back: 1, match% = 0.33
+The Company is trying to consolidate arm types to boost overall efficiency. You are required to find duplicates and send them to the warehouse for cataloging. [/insert_joke] I'd give you a hand, but I've been flying all day and my arms are tired [/end_joke]
+
+  - Press LEFT SHIFT for ARMS identical to the one you saw {0} ARM(s) ago.
+  - Press RIGHT SHIFT if the arm is NOT a match.
+  - DON'T press anything if the platform has a RED ring.
+
+-----------
+
+
+Brain Deficiencies (U/I)
+Automaton: Level 2 Update/Inhibit GoNoGo n-back,n-back: 1, match% = 0.33
+The Company is having it's monthly "'Bots for Babies" playtesting day. Please pull any duplicate head types from this current order and send them directly to the nursery.  If we learned anything from that past 38 times: DO NOT send any broken 'bots to the nursery.
+
+  - Press RIGHT SHIFT for robots with a HEAD SHAPE identical to the one you saw {0} HEAD(s) ago. (Note: Only pay attention to shape, not color.)
+  - Press LEFT SHIFT if the head is NOT a match.
+  - DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Terrestrial Tiering (U/I)
+Automaton: Level 2 Update/Inhibit GoNoGo n-back,n-back: 1, match% = 0.33
+This robot's memory is nearly full, but it still needs to recognize many different objects in order to do its job as a seeing-eye 'bot. For this task you'll simply be reducing duplicate information to save on memory costs.
+
+  - Press RIGHT SHIFT for OBJECTS identical to the one you saw {0} OBJECT(s) ago.
+  - Press LEFT SHIFT if the object is NOT a match.
+  - DON'T press anything if the BLUE indicator light is illuminated.
+
+-----------
+
+
+Arm Prioritization (S/I)
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo
+Currently we are undergoing part testing here at the factory. We need you to filter out certain part types to send to the testing facilities. Some parts will also be tagged for special attention with a yellow light on the platform and should not be filtered out.
+
+Platform has a RED Ring:
+  - Press LEFT SHIFT for LEGS.
+  - Press RIGHT SHIFT otherwise.
+
+Platform has a BLUE Ring:
+  - Press RIGHT SHIFT for PURPLE PARTS.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the platform's YELLOW LIGHT is activated.
+
+-----------
+
+
+Part Calculation (S/I)
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo
+Currently we are undergoing part testing here at the factory. We need you to filter out certain part types to send to the testing facilities. Some parts will also be tagged for special attention with a yellow light on the platform and should not be filtered out.
+
+Platform has a BLUE Ring:
+  - Press LEFT SHIFT for ODD numbers.
+  - Press RIGHT SHIFT otherwise.
+
+Platform has a RED Ring:
+  - Press RIGHT SHIFT for numbers GREATER than 10.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the platform's YELLOW LIGHT is activated.
+
+-----------
+
+
+Iconography (S/I)
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo
+The military needs BAT-EARED 'bots immediately to apprehend an elusive clown man. Also, the fraternal order of tree-huggers requested SQUARE headed nature 'bots to hug the trees while they rest. Since those 'bots won't be doing anything useful, this represents an opportunity to dump some broken parts. The yellow light will indicate any 'bots too superior for either to have, so ignore them. 
+
+Robot has a BAT-EARED head:
+  - Press LEFT SHIFT if the ICON relates to MILITARY.
+  - Press RIGHT SHIFT otherwise.
+
+Robot has a SQUARE head:
+  - Press RIGHT SHIFT if the robot has BROKEN PARTS.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Failure Drilling (S/I)
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo
+The Company is conducting a new study. They think that industrial robots should never have broken parts because it makes humans feel unsafe. On the other hand, they think medical 'bots that have broken limbs are relatable to sick patients. Help sort these types of 'bots out for the study.
+
+Robot has NON-BROKEN PARTS:
+  - Press LEFT SHIFT if the robot is ORANGE.
+  - Press RIGHT SHIFT otherwise.
+
+Robot has BROKEN PARTS:
+  - Press RIGHT SHIFT if the ICON relates to MEDICAL.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the YELLOW DOOR LIGHT is activated.
+
+-----------
+
+
+Aeronautical Categorization (S/I)
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo
+The Company is introducing a new model of bird watching 'bot. For this task you will be programming the 'bot to differentiate between flying things and living things. Some of the pictures you'll see are known to cause problems with the existing firmware, so if you see a RED BORDER on the picture, do not program that picture.
+
+RED indicator light is illuminated:
+  - Press LEFT SHIFT for FLYING THINGS.
+  - Press RIGHT SHIFT otherwise.
+
+BLUE indicator light is illuminated:
+  - Press RIGHT SHIFT for LIVING THINGS.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the PICTURE BORDER is RED.
+
+-----------
+
+
+Craftsmans Critiquing (S/I)
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo
+The Company's line of handy-bot has been receiving negative reviews due to an unfortunate tendency to use cats in place of more appropriate tools. You will be programming this 'bot to better recognize some common tools. Some of these words are known to cause problems with the existing firmware, so if you see a YELLOW caution indicator, do not program that picture.
+
+RED indicator light is illuminated:
+  - Press LEFT SHIFT for TOOLS.
+  - Press RIGHT SHIFT otherwise.
+
+BLUE indicator light is illuminated:
+  - Press RIGHT SHIFT for HANDHELD ITEMS.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the YELLOW CAUTION SIGN is active.
+
+-----------
+
+
+Head Removal (S/I)
+Automaton: Level 2 Switch/Inhibit ID and StopSignal
+The assembly department and the testing department are both dealing with large orders and need a steady mixture of robot parts.  Some parts may have their yellow platform light activated, which means they need further inspection and should not be sorted.
+
+Order 1: <b>RED</b> ring
+  - Press LEFT SHIFT for HEADS
+  - Press RIGHT SHIFT for all other parts
+Order 2: <b>BLUE</b> ring
+  - Do the reverse of Order 1
+  - Press RIGHT SHIFT for HEADS
+  - Press LEFT SHIFT for all other parts
+
+Yellow Platform Light Activated:
+  - DON'T press anything
+
+-----------
+
+
+Chromatic Manipulation (S/I)
+Automaton: Level 2 Switch/Inhibit ID and StopSignal
+Our surveys show that orange is being called "hot" by our clients. We are unable to process what that means, so we are trying two variations on our next order to statistically find out how much orange is or is not needed. Do not burn yourself. Also, do not sort yellow lit platforms.
+
+Order 1: <b>RED</b> ring
+  - Press LEFT SHIFT for ORANGE ARMS
+  - Press RIGHT SHIFT for NON-ORANGE PARTS
+Order 2: <b>BLUE</b> ring
+  - Do the reverse of Order 1
+  - Press RIGHT SHIFT for ORANGE ARMS
+  - Press LEFT SHIFT for NON-ORANGE PARTS
+
+Yellow Platform Light Activated:
+  - DON'T press anything
+
+-----------
+
+
+Dangerous Gaming (S/I)
+Automaton: Level 2 Switch/Inhibit ID and StopSignal
+Recently, a school returned a shipment of 'bots that were still under warranty. The report claims the children "went ham" and destroyed most of the 'bots. Sort both types of 'bot and remove any broken parts you find. If the yellow light is activated, let that 'bot be sent back for "ham testing".
+
+Order 1: <b>BROKEN</b> Parts
+  - Press LEFT SHIFT for HAZARDOUS Icons.
+  - Press RIGHT SHIFT for SPORTS Icons.
+Order 2: <b>INTACT</b> Parts
+  - Do the reverse of Order 1
+  - Press RIGHT SHIFT for HAZARDOUS Icons.
+  - Press LEFT SHIFT for SPORTS Icons.
+
+Yellow Door Light Activated:
+  - DON'T press anything
+
+-----------
+
+
+Battlefield Medicine (S/I)
+Automaton: Level 2 Switch/Inhibit ID and StopSignal
+A wise 'bot once said "...(series of blips and buzzes)..." which prints out as "For every military 'bot, a medical 'bot will be required." This is not insightful, it's the newest order we received. Add missing arms and legs to each military and medical 'bot, unless the yellow scan light is activated. 
+
+Order 1: <b>MILITARY</b> Icons
+  - Press LEFT SHIFT for Robots with ARMS.
+  - Press RIGHT SHIFT for Robots with LEGS.
+Order 2: <b>MEDICAL</b> Icons
+  - Do the reverse of Order 1
+  - Press RIGHT SHIFT for Robots with ARMS.
+  - Press LEFT SHIFT for Robots with LEGS.
+
+Yellow Door Light Activated:
+  - DON'T press anything
+
+-----------
+
+
+Avoidance Training (S/I)
+Automaton: Level 2 Switch/Inhibit ID and StopSignal
+The latest fad in self driving cars dictates a need to release new driving 'bots ASAP. These 'bots will need to understand how to react to any manner of road obstacle appropriately. You need to program the 'bot to recognize living versus non-living obstacles so it knows to avoid the more dangerous non-living objects in the future. The Indicator lights will guide your sorting process.
+
+Directive 1: RED Indicator
+  - Press LEFT SHIFT for NON-LIVING objects.
+  - Press RIGHT SHIFT for LIVING objects.
+Directive 2: BLUE Indicator
+  - Do the reverse of Directive 1
+  - Press RIGHT SHIFT for NON-LIVING objects.
+  - Press LEFT SHIFT for LIVING objects.
+Yellow Caution Sign Activated:
+  - DON'T press anything
+
+-----------
+
+
+Part ID Gleaning (U/S)
+Automaton: Level 2 Update/Switch ED and n-back V2,n-back: 1,match% = 0.33
+The delivery system had a malfunction and all the part ID numbers need to be reevaluated. There are two large orders that got mixed up, so use the platform ring colors to decide which order you are currently fulfilling.
+
+Order 1: Blue Platform Ring
+  - Press LEFT SHIFT if the current NUMBER and the NUMBER you saw {0} NUMBER(s) ago were both ODD or both EVEN.
+  - Press RIGHT SHIFT otherwise.
+
+Order 2: Red Platform Ring
+  - Press LEFT SHIFT if the current NUMBER and the NUMBER you saw {0} NUMBER(s) ago were both LOWER than 5 or both GREATER than 5.
+  - Press RIGHT SHIFT otherwise.
+
+ALERT! Pay attention to the platform ring color so you know which order you are fulfilling.
+
+-----------
+
+
+Eye Scrobbling (U/S)
+Automaton: Level 2 Update/Switch ED and n-back V2,n-back: 1,match% = 0.33
+Two large head orders have been placed and the heads will need to be sorted based on eye location. The platform lights will help you sort two orders at once. Stay focused.
+
+Order 1: Blue Platform Ring
+  - Press LEFT SHIFT if the current EYE and the EYE you saw {0} EYE(s) ago were both in the LEFT COLUMN or both in the RIGHT COLUMN.
+  - Press RIGHT SHIFT otherwise.
+
+Order 2: Red Platform Ring
+  - Press LEFT SHIFT if the current EYE and the EYE you saw {0} EYE(s) ago were both in the TOP ROW or both in the BOTTOM ROW.
+  - Press RIGHT SHIFT otherwise.
+
+ALERT! Pay attention to the platform ring color so you know which order you are fulfilling.
+
+-----------
+
+
+Cross Checking (U/S)
+Automaton: Level 2 Update/Switch ED and n-back V2,n-back: 1,match% = 0.33
+Broken parts have become a real problem for our output recently. Our sensor's firmware has not been upgraded yet, so it still has some problems detecting which parts are missing and which parts are broken. Help us calibrate it by switching between these two internal orders. Use the 'bots' heads to differentiate tasks. 
+
+Order 1: Square Head
+  - Press LEFT SHIFT if the current robot and the robot you saw {0} robot(s) ago both had LEGS or both had ARMS.
+  - Press RIGHT SHIFT otherwise.
+
+Order 2: Bat-Eared Head
+  - Press LEFT SHIFT if the current robot and the robot you saw {0} robot(s) ago both had BROKEN PARTS or both had NON-BROKEN PARTS.
+  - Press RIGHT SHIFT otherwise.
+
+
+ALERT! Pay attention to the robots' heads so you know which order you are fulfilling.
+
+-----------
+
+
+Naturalized Decommissioning (U/S)
+Automaton: Level 2 Update/Switch ED and n-back V2,n-back: 1,match% = 0.33
+Nature and Industry.  Broken and Non-broken. These are but ripples in the pond of life. [/end poet mode] Follow your directives closely. You are being watched. 
+
+Directive 1: Square Head
+  - Press LEFT SHIFT if the current robot and the robot you saw {0} robot(s) ago both had ICONS related to INDUSTRY or both had ICONS related to NATURE.
+  - Press RIGHT SHIFT otherwise.
+
+Directive 2: Bat-Eared Head
+  - Press LEFT SHIFT if the current robot and the robot you saw {0} robot(s) ago both had BROKEN PARTS or both had NON-BROKEN PARTS.
+  - Press RIGHT SHIFT otherwise.
+
+
+ALERT! Pay attention to the robots' heads so you know which order you are fulfilling.
+
+-----------
+
+
+Aviation Aspectizing (U/S)
+Automaton: Level 2 Update/Switch ED and n-back,n-back: 1,match% = 0.33
+This 'bot is destined for the aviation department, so it is important for it to distinguish between other flying objects it may encounter during its life cycle. In this task you will help train it before final assembly occurs.
+
+Task 1: Blue Indicator Light
+  - Press LEFT SHIFT if the current PICTURE and the PICTURE you saw {0} PICTURE(s) ago were both FLYING THINGS or both NON-FLYING THINGS.
+  - Press RIGHT SHIFT otherwise.
+
+Task 2: Red Indicator Light
+  - Press LEFT SHIFT if the current PICTURE and the PICTURE you saw {0} PICTURE(s) ago were both LIVING THINGS or both NON-LIVING THINGS.
+  - Press RIGHT SHIFT otherwise.
+
+ALERT! Pay attention to the indicator lights so you know which order you are fulfilling.
+
+-----------
+
+
+Intent Estimation (U/S)
+Automaton: Level 2 Update/Switch ED and n-back,n-back: 1,match% = 0.33
+The Company wants to improve the functioning of their line of customer service 'bots. It is important that these 'bots can evaluate the gender and emotion of customers to best serve their needs. This task involves hard coding this information into the 'bot's memory.
+
+Operation 1: Blue Indicator Light
+  - Press LEFT SHIFT if the current FACE and the FACE you saw {0} FACE(s) ago were both MALE or both FEMALE.
+  - Press RIGHT SHIFT otherwise.
+
+Operation 2: Red Indicator Light
+  - Press LEFT SHIFT if the current FACE and the FACE you saw {0} FACE(s) ago were both HAPPY or both NOT HAPPY.
+  - Press RIGHT SHIFT otherwise.
+
+ALERT! Pay attention to the indicator lights so you know which order you are fulfilling.
+
+-----------
+
+
+Optical Positioning (U/S)
+Automaton: Level 2 Update/Switch ED and n-back,n-back: 1,match% = 0.33
+The Company is running a diagnostics test on the optical division of the factory. Two tests have been issued to determine the efficiency of the optics department and the visual analysis department. You will be required to send heads with either left or right optical locations to each department.
+
+Test 1:
+  - Press LEFT SHIFT if the eye is located on the left side.
+  - Press RIGHT SHIFT if the eye is located on the right side.
+Test 2:
+  - Reverse Order 1
+
+ALERT! You will start with order 1. Switch between orders if you see an eye in the exact place on the head as you saw {0} head(s) ago.
+
+-----------
+
+
+Achievement Hunting (U/S)
+Automaton: Level 2 Update/Switch ED and n-back,n-back: 1,match% = 0.33
+The Company has decided to give achievements if an employee excels. In this test, sort RED and BLUE parts unless you see a duplicate, then you will switch sorting direction. There is no achievement notification if you succeed, but you'll know in your heart if you earned it.
+
+Test 1:
+  - Press LEFT SHIFT if the PART is BLUE.
+  - Press RIGHT SHIFT if the PART is RED.
+Test 2:
+  - Reverse Order 1
+  - Press RIGHT SHIFT if the PART is BLUE.
+  - Press LEFT SHIFT if the PART is RED.
+
+ALERT! You will start with order 1. Switch between orders if you see a PART identical to the PART you saw {0} PART(s) ago.
+
+-----------
+
+
+Advanced Categorization (U/S)
+Automaton: Level 2 Update/Switch ED and n-back,n-back: 1,match% = 0.33
+The Company is trying out a new method for tagging 'bots to increase productivity. In efforts to keep it simple, they chose to use prime and non-prime numbers. Also, a doubles protocol will be used for switching what type of parts are needed on the 'bots. Test well.
+
+Test 1:
+  - Press LEFT SHIFT if the NUMBER is PRIME.
+  - Press RIGHT SHIFT if the NUMBER is NON-PRIME.
+Test 2:
+  - Reverse Order 1
+  - Press RIGHT SHIFT if the NUMBER is PRIME.
+  - Press LEFT SHIFT if the NUMBER is NON-PRIME.
+
+ALERT! Start with Order 1. Switch between orders if you see a NUMBER identical to the one you saw {0} NUMBER(s) ago.
+
+-----------
+
+
+Eye Symmetrizing (U)
+Automaton: Level 3 Update - xOR,n-back: 1,match% = 0.33
+The Company is currently doing something top secret. You are not allowed to know why this is your task. All you can know is that it involves sorting heads based on eye placement.  Ask no further questions.
+
+  - Press LEFT SHIFT if the eye is located in the middle column.
+  - Press LEFT SHIFT if the current eye is not in the middle column, but the eye from {0} head(s) ago was.
+  - Press RIGHT SHIFT if neither the current eye or the eye from {0} head(s) ago are in the middle column.
+  - Press RIGHT SHIFT if both the current eye and the eye from {0} head(s) ago are in the middle column.
+
+-----------
+
+
+Verbal Repetition (U)
+Automaton: Level 3 Update - xOR,n-back: 1,match% = 0.33
+The Company is experimenting with more complex speaking patterns to create more "human" friend-bots. They determined that real people tend to avoid using the same word multiple times in conversation, so you'll be training this 'bot to follow the same tendency.
+
+  - Press LEFT SHIFT if the current WORD OR the WORD from {0} WORD(s) ago relates to PLAY.
+  - Press RIGHT SHIFT if NEITHER the current WORD or the WORD from {0} WORD(s) ago relates to PLAY.
+  - Press RIGHT SHIFT if BOTH the current WORD and the WORD from {0} WORD(s) ago are related to PLAY.
+
+-----------
+
+
+Localized Vision (U)
+Automaton: Level 3 Update - xOR,n-back: 1,match% = 0.33
+The Company has recently developed new ocular lenses for our driving instructor 'bots. You are required to calibrate their peg perception so they won't destroy any more cones on the track. They have a real problem with running over bystanders, too. Hopefully this will fix that as well. 
+
+  - Press LEFT SHIFT if the PEG is located in the LEFT column.
+  - Press LEFT SHIFT if the current PEG is not in the LEFT column, but the PEG from {0} PEG(s) ago was.
+  - Press RIGHT SHIFT if neither the current PEG or the PEG from {0} PEG(s) ago are in the LEFT column.
+  - Press RIGHT SHIFT if both the current PEG and the PEG from {0} PEG(s) ago are in the LEFT column.
+
+-----------
+
+
+Hand Exemption (U)
+Automaton: Level 3 Update - Identity,n-back: 1,match% = 0.33
+There has been a large demand for robots with humanoid hands recently. You will need to filter hand types based on the prevalence of humanoid hands.
+
+  - Press LEFT SHIFT to filter out an ARM only if the ARM you saw {0} ARM(s) ago had a humanoid hand.
+  - Press RIGHT SHIFT otherwise.
+
+-----------
+
+
+Primetizing (U)
+Automaton: Level 3 Update - Identity,n-back: 1,match% = 0.33
+This 'bot's memory was scrambled during its normal operations. Some of its internal memory ID codes are incorrect as a result. You'll need to fix this error so the 'bot can be sent back out into the field.
+
+  - Press LEFT SHIFT to reprogram an ID only if the NUMBER you saw {0} NUMBER(s) ago was a PRIME number.
+  - Press RIGHT SHIFT otherwise.
+
+Note: a Prime Number is indivisible by anything but 1 and itself. Examples include 3, 5, 7, and 11
+
+-----------
+
+
+Spatial Troning (U)
+Automaton: Level 3 Update - Identity,n-back: 1,match% = 0.33
+Our older lenses are having trouble deciphering repetitive visuals. We set up this tagging protocol to call out repeats in order to sharpen the ocular sensors. 
+
+  - Press LEFT SHIFT for SHAPES only if the SHAPE you saw {0} SHAPE(s) ago was a CUBE.
+  - Press RIGHT SHIFT otherwise
+
+-----------
+
+
+Braincase Downsizing (I)
+Automaton: Level 3 Inhibit - Identity - OneStim,inhibit chance: 0.25
+The tracking systems department needs heads for testing a smaller, more efficient chip type. You must sort heads out of the incoming part shipment. Unfortunately, these chips will not work with the BAT-EARED head due to interference from the pointed ears. They will not be required for testing.
+
+  - Press LEFT SHIFT to sort out HEADS.
+  - Press RIGHT SHIFT for all other parts.
+  - DON'T sort out the BAT-EARED heads.
+
+-----------
+
+
+ATC Prioritizing (I)
+Automaton: Level 3 Inhibit - Identity - OneStim,inhibit chance: 0.25
+This next 'bot will be used to manage air traffic control for our overseas shipping branch, so it needs to recognize flying vehicles of all types. However, the airport it's destined for does not support non-winged vehicle landings anymore. You'll be training it to do a very important job, so be careful.
+
+  - Press LEFT SHIFT to program in FLYING VEHICLES.
+  - Press RIGHT SHIFT to program in NON-FLYING THINGS.
+  - DON'T program in WINGLESS VEHICLES.
+
+-----------
+
+
+Flipper Exception (I)
+Automaton: Level 3 Inhibit - Identity - OneStim,inhibit chance: 0.25
+Cooking 'bots need the ability to understand exact terminology while preparing meals and recipes. This current buyer has asked us to not have the 'bot respond to the word "Spatula". Apparently, it's the name of the buyer's pet dog and it barely survived the last cooking 'bot. 
+
+  - Press LEFT SHIFT for WORDS related to COOKING.
+  - Press RIGHT SHIFT for all other words.
+  - DON'T press anything for the word "Spatula".
+
+-----------
+
+
+Eye Intermediation (I)
+Automaton: Level 3 Inhibit - GoNoGo - xOR,inhibit chance: 0.25
+The Company has issued a recall on broken optical sensors as well as head models with center eye placement. Any head with an eye in the center column of the optical grid must be sent to the optometry department. Quality assurance has already marked platforms that contain heads with broken sensors.
+
+  - Press LEFT SHIFT if the eye is located in the middle column of the optical grid.
+  - Press RIGHT SHIFT if the eye is anywhere else.
+
+ALERT! If the platform has either a BLUE ring or a YELLOW PLATFORM LIGHT, you are not to evaluate that part. If the platform has both a BLUE ring AND a YELLOW PLATFORM LIGHT, evalute the part as usual.
+
+-----------
+
+
+Serpentinian Exclusion (I)
+Automaton: Level 3 Inhibit - GoNoGo - xOR,inhibit chance: 0.25
+Some customers have reported that their lawn-care 'bots are often violently attacking garden hoses with excessive destructive force. For this task you'll be reprogramming a batch of recalls to help curb these incidents.
+
+  - Press LEFT SHIFT if the picture is of a SNAKE.
+  - Press RIGHT SHIFT for all other pictures.
+
+ALERT! If the BLUE indicator OR the RED indicator is illuminated, you are not to evaluate that picture. If the BLUE indicator AND the RED indicator are illuminated, evaluate the picture as usual.
+
+-----------
+
+
+Complex Biodigitizing (I)
+Automaton: Level 3 Inhibit - GoNoGo - xOR,inhibit chance: 0.25
+Animal recognition is important for every 'bot, whether it's a 'bot that takes care of animals, or a 'bot that "takes care" of animals. Our system has had some problems with corrupt pixels lately, so we put in two fail-safes to catch any issues. If they are both active, they negate each other.
+
+  - Press RIGHT SHIFT if the PICTURE is an ANIMAL.
+  - Press LEFT SHIFT for all other pictures.
+
+ALERT!  If the ROOM is CYAN AND the EYEPIECE RING is MAGENTA, you are to evaluate that picture as usual.If the ROOM is CYAN OR the EYEPIECE RING is MAGENTA, do not press anything.
+
+-----------
+
+
+Sensor Peripheralizing (S)
+Automaton: Level 3 Switch - Identity - OneStim,switch chance: 0.25
+A recent order from the military requires heads with a variety of optical setups.  You are required to sort heads based on their eye locations to meet these stringent specifications.
+
+Order 1:
+  - Press LEFT SHIFT if the eye is located in the left column.
+  - Press RIGHT SHIFT if the eye is located in the right column.
+Order 2:
+  - Press LEFT SHIFT if the eye is located in the top row.
+  - Press RIGHT SHIFT if the eye is located in the bottom row.
+
+ALERT! If the eye is located in the top right column, you are required to switch orders.
+
+-----------
+
+
+Emotionalizing Literature (S)
+Automaton: Level 3 Switch - Identity - OneStim,switch chance: 0.25
+This next 'bot is a military model that got mixed up in assembly and has spent a few months as a therapy 'bot. There have been some... unfortunate incidents. This task is designed to refresh its memory for proper reassignment.
+
+Job 1:
+  - Press LEFT SHIFT if the FACE is HAPPY.
+  - Press RIGHT SHIFT if the FACE is NOT HAPPY.
+Job 2:
+  - Press LEFT SHIFT if the WORD is related to MILITARY.
+  - Press RIGHT SHIFT if the WORD is NOT related to MILITARY.
+
+ALERT! If the WORD is a VEHICLE, switch which job you are performing.
+
+-----------
+
+
+Area Allocation (S)
+Automaton: Level 3 Switch - Identity - OneStim,switch chance: 0.25
+Our new line of interior design 'bots not only need to understand layout and positioning, but also feng shui [v.23a]. The following is a calibration of spatial concepts.
+
+Order 1:
+  - Press LEFT SHIFT if the PEG is in the LEFT column.
+  - Press RIGHT SHIFT if the PEG is in the RIGHT column.
+Order 2:
+  - Press LEFT SHIFT if the PEG is in the TOP row.
+  - Press RIGHT SHIFT if the PEG is in the BOTTOM row.
+
+ALERT! If the PEG is in the TOP RIGHT position, you are required to switch orders.
+
+-----------
+
+
+Head Heuristics (S)
+Automaton: Level 3 Switch - xOR ModeSwitch - OneStim,switch chance: 0.25
+Due to sanctions against the Weaponized/Household Robotic Pets division in The Company's east coast subsidiary, we are rerouting certain parts to other divisions in the off-shore assembly facilities. Your orders are as follows:
+
+Order 1:
+  - Press LEFT SHIFT for HEADS.
+  - Press RIGHT SHIFT for all other parts.
+Order 2:
+  - Press LEFT SHIFT if the part ID number is even.
+  - Press RIGHT SHIFT if the part ID number is odd.
+
+ALERT! If the platform has either a BLUE ring or a yellow platform light, you are required to switch orders. If the platform has both a BLUE ring and a yellow platform light, remain on the current order.
+
+-----------
+
+
+Avionic Sequentializing (S)
+Automaton: Level 3 Switch - xOR ModeSwitch - OneStim,switch chance: 0.25
+The bot currently up for reprogramming had trouble telling the difference between animals and numbers. I have no idea why. We designed a special program to help it differentiate between the two.
+
+Order 1:
+  - Press LEFT SHIFT for FLYING
+  - Press RIGHT SHIFT for NON-FLYING
+Order 2:
+  - Press LEFT SHIFT if the picture ID number is EVEN.
+  - Press RIGHT SHIFT if the picture ID number is ODD.
+
+ALERT! Start in Task 1.
+
+ALERT! If the RED indicator is illuminated OR the YELLOW caution sign is on, you are required to switch orders. If the RED indicator is illuminated AND the YELLOW caution sign is on, remain on the current order.
+
+-----------
+
+
+Conveyance Arithmetic (S)
+Automaton: Level 3 Switch - xOR ModeSwitch - OneStim,switch chance: 0.25
+The Company has sent in a build order for new transportation 'bots. They need to recognize vehicles and non-vehicles, as well the numerics involved in travel. Switch between these concepts when both the near and far sensors give the signal at the same time. 
+
+Order 1:
+  - Press LEFT SHIFT for VEHICLES.
+  - Press RIGHT SHIFT for NON VEHICLES.
+Order 2:
+  - Press LEFT SHIFT if the NUMBER is EVEN.
+  - Press RIGHT SHIFT if the NUMBER is ODD.
+
+ALERT! If the ROOM is either PURPLE or the EYEPIECE light is YELLOW, you are required to switch orders. If the ROOM is PURPLE AND the EYEPIECE light is YELLOW, remain on the current order.
+
+-----------
+
+
+Digit Arrangment (U/I)
+Automaton: Level 3 UpdateInhibit - Identity - OneStim,n-back: 1,inhibit chance: 0.25
+The incoming batch of parts was dropped on its way to our factory. You need to perform some presorting before assembly can properly use them.
+
+  - Press LEFT SHIFT if the NUMBER is the same as the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the NUMBER is 5.
+
+-----------
+
+
+PI Memorization (U/I)
+Automaton: Level 3 UpdateInhibit - Identity - OneStim,n-back: 1,inhibit chance: 0.25
+This 'bot needs a refresher in memorizing long strings of digits.
+
+  - Press LEFT SHIFT if the NUMBER is the same as the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the NUMBER is 7.
+
+-----------
+
+
+Language Crunching (U/I)
+Automaton: Level 3 UpdateInhibit - Identity - OneStim,n-back: 1,inhibit chance: 0.25
+The Company cannot declassify the reasons for this current task. You do not have the appropriate clearance level. For your own piece of mind, it has nothing to do with child-driven soldier robots.
+
+  - Press LEFT SHIFT WORD is the same as the WORD you saw {0} WORD(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the WORD is 3 letters long.
+
+-----------
+
+
+PIN Defraudment (U/I)
+Automaton: Level 3 UpdateInhibit - xOR - OneStim,n-back: 1,inhibit chance: 0.25
+The Company was recently made aware of an incident involving corporate espionage perpetrated by our competitors. We've been ordered to mix up the current batch of parts to confuse spies while The Company deals with the intrusion.
+
+  - Press LEFT SHIFT if the NUMBER is the same as the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+  - DON'T press anything if the platform has a BLUE ring.
+  - DON'T press anything if the NUMBER is MAGENTA.
+
+ALERT! If the platform has a BLUE ring AND the number is MAGENTA, act according to the initial rules.
+
+-----------
+
+
+Ocular Orientation (S/I)
+Automaton: Level 3 SwitchInhibit - Identity - OneStim,inhibit chance: 0.25
+For this task, you will be in charge of balancing the distribution of ocular sensor arrays to the calibration and testing departments. There are two orders coming through at once, so pay attention to which order you are fulfilling.
+
+Order 1: RED ring
+  - Press LEFT SHIFT if the eye is located in the left column of the head.
+  - Press RIGHT SHIFT if the eye is located in the right column of the head.
+Order 2: BLUE ring
+  - Press LEFT SHIFT if the eye is located in the top row of the head.
+  - Press RIGHT SHIFT if the eye is located in the bottom row of the head.
+
+ALERT! DON'T press anything if the eye is located in the bottom left corner of the head.
+
+-----------
+
+
+Cartography Catharsis (S/I)
+Automaton: Level 3 SwitchInhibit - Identity - OneStim,inhibit chance: 0.25
+This 'bot's job as a delivery driver relies on its ability to understand maps quickly and accurately. You will be training the 'bot to navigate areas quickly. Pay attention to the indicator lights; they will guide your training.
+
+Coord 1: RED Indicator Light
+  - Press LEFT SHIFT for highlighted locations in the left column of the map.
+  - Press RIGHT SHIFT for highlighted locations in the right column of the map.
+Coord 2: BLUE Indicator Light
+  - Press LEFT SHIFT for highlighted locations in the top row of the map.
+  - Press RIGHT SHIFT for highlighted locations in the bottom row of the map.
+
+ALERT! DON'T press anything if the highlighted location is in the bottom left corner of the map.
+
+-----------
+
+
+Generational Gapping  (S/I)
+Automaton: Level 3 SwitchInhibit - Identity - OneStim,inhibit chance: 0.25
+Our line of BuddyBot's ocular sensors have been malfunctioning lately. As a method of wiping old data and replacing it with new information, we built in a color coding that resets the sensor while allowing new input. They read people wearing glasses well though, so don't wipe that data.
+
+Coord 1: ROOM is PURPLE
+  - Press LEFT SHIFT for HAPPY humans.
+  - Press RIGHT SHIFT for UNHAPPY humans.
+Coord 2: ROOM is CYAN
+  - Press LEFT SHIFT for CHILD humans.
+  - Press RIGHT SHIFT for ADULT humans.
+
+ALERT! DON'T press anything if the human is wearing GLASSES.
+
+-----------
+
+
+Limb Chromatizing (U/S)
+Automaton: Level 3 UpdateSwitch - Identity - OneStim,n-back: 1
+The Company is currently undergoing rebranding due to the recent string of robot disobedience incidents. You are needed to sort out parts to the proper painting and cleaning divisions. You must complete the tasks based on the needs of each division. 
+
+Division 1:
+  - Press LEFT SHIFT if you receive an ARM.
+  - Press RIGHT SHIFT if you receive a LEG.
+Division 2:
+  - Press LEFT SHIFT if you receive a green part.
+  - Press RIGHT SHIFT if you receive a purple part.
+
+ALERT! Start in Division 1.
+
+ALERT! Unfortunately the yellow light is broken, so if the part you received {0} part(s) ago was an arm with a tentacle-fingered hand, switch divisions.
+
+-----------
+
+
+Genus Logistics (U/S)
+Automaton: Level 3 UpdateSwitch - Identity - OneStim,n-back: 1
+The Company's new safari-bot needs to accurately identify specific types of animals so it can appropriately entertain and educate the tourist-bots it will be leading. This round of programming focuses on birds.
+
+Directive 1:
+  - Press LEFT SHIFT if you see a BIRD.
+  - Press RIGHT SHIFT if you see a NON-BIRD.
+Directive 2:
+  - Press LEFT SHIFT if you see a FLYING animal.
+  - Press RIGHT SHIFT if you see a NON-FLYING animal.
+
+ALERT! Start in Directive 1.
+
+ALERT! If the picture you saw {0} picture(s) ago was an INSECT, switch directives.
+
+-----------
+
+
+Organizational Balancing (U/S)
+Automaton: Level 3 UpdateSwitch - Identity - OneStim,n-back: 1
+The ocular sensors in our construction 'bots have to be calibrated to know the difference between basic 3D shapes and Tetris Block shapes. They also need to be able to understand color coding. Most importantly, they need to understand that love changes everything. 
+
+Division 1:
+  - Press LEFT SHIFT if you see a 3D SHAPE.
+  - Press RIGHT SHIFT if you see a TETRIS BLOCK.
+Division 2:
+  - Press LEFT SHIFT if the object is GREEN.
+  - Press RIGHT SHIFT if the object is PURPLE.
+
+ALERT! Start in Division 1.
+
+ALERT! If the OBJECT you saw {0} OBJECTS(s) ago was a 3D HEART, switch divisions.
+
+-----------
+
+
+Organism Grading (U/S)
+Automaton: Level 3 UpdateSwitch - Identity - OneStim,n-back: 1
+The visual reception readers for our nature 'bots have had trouble scanning the difference between bird types and animal types. Just because a bird has wings doesn't mean it flies, and just because an animal flies doesn't mean it's a bird. You and an image of a dog will help them calibrate. 
+
+Directive 1:
+  - Press LEFT SHIFT if you see a FLYING animal.
+  - Press RIGHT SHIFT if you see a NON-FLYING animal.
+Directive 2:
+  - Press LEFT SHIFT if you see a BIRD animal.
+  - Press RIGHT SHIFT if you see a NON-BIRD animal.
+
+ALERT! Start in Directive 1.
+
+ALERT! If the picture you saw {0} picture(s) ago was an DOG, switch directives.
+
+-----------
+
+
+Serial Verification (U/S)
+Automaton: Level 3 UpdateSwitch - xOR - OneStim,n-back: 1,switch chance: 0.25
+For this assignment, you are needed to do basic part filtering based on part ID numbers. Disassembly and Reassignment are both sending parts for sorting. You will know when to switch tasks when you see either a blue ring or a repeated part. Just don't switch if you see both. That makes them upset.
+
+Task 1:
+  - Press LEFT SHIFT if the part ID number is odd.
+  - Press RIGHT SHIFT if the part ID number is even.
+Task 2:
+  - Press LEFT SHIFT if the part number is less than 5.
+  - Press RIGHT SHIFT if the part number is greater than 5.
+
+ALERT! Start in Task 1.
+
+ALERT! If you receive a blue ringed platform, switch tasks. If the part number is exactly the same as the part you saw {0} part(s) ago, switch tasks. If the platform is blue AND the part number is the same, DON'T switch tasks.
+
+-----------
+
+
+Culinary Itemization (U/S)
+Automaton: Level 3 UpdateSwitch - xOR - OneStim,n-back: 1,switch chance: 0.25
+Chef-bots are a big hit, so The Company is making them a priority. You'll be training this 'bot to recognize common kitchen-related words alongside possible dishes it'll need to serve.
+
+Task 1:
+  - Press LEFT SHIFT if the WORD is related to COOKING.
+  - Press RIGHT SHIFT if the WORD is NOT related to COOKING.
+Task 2:
+  - Press LEFT SHIFT if the PICTURE is an ANIMAL.
+  - Press RIGHT SHIFT if the PICTURE is NOT an ANIMAL
+
+ALERT! Start in Task 1.
+
+ALERT! If you see the RED indicator light, switch tasks. If the picture and word is identical to the picture/word you saw {0} picture(s) ago, switch tasks. If the RED indicator light is on AND the picture/word is the same, DON'T switch tasks.
+
+-----------
+
+
+Recognition Profiling (U/S)
+Automaton: Level 3 UpdateSwitch - xOR - OneStim,n-back: 1,switch chance: 0.25
+Humans are complicated creatures, full of defects. Configure the new eye sensors for identifying human constructs, like abstract and concrete, as well as facial features of males and non-males. Watch for overload indicators that will tell you when to switch calibrations. 
+
+Task 1:
+  - Press LEFT SHIFT if the WORD is ABSTRACT.
+  - Press RIGHT SHIFT if the WORD is CONCRETE.
+Task 2:
+  - Press LEFT SHIFT if the PICTURE is a MALE human.
+  - Press RIGHT SHIFT if the PICTURE is a FEMALE human.
+
+ALERT! Start in Task 1.
+
+ALERT! If the room is PURPLE, switch tasks. If the picture and word is identical to the picture/word you saw {0} picture(s) ago, switch tasks. If the room is PURPLE AND the picture/word is the same, DON'T switch tasks.
+
+-----------
+
+
+Uniqueness Justification (U/S)
+Automaton: Level 3 UpdateSwitch - Relational - OneStim,n-back: 1,switch chance: 0.25
+As part of a company-wide effort to appear "cool" and "responsive to customer feedback", we have been directed to mix up parts to promote uniqueness across the consumer-grade 'bot lines.
+
+Directive 1: Blue Platform Ring
+  - Press LEFT SHIFT if the part ID number is LESS THAN the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+
+Directive 2: Red Platform Ring
+  - Reverse Directive 1
+  - Press RIGHT SHIFT if the part ID number is LESS THAN the NUMBER you saw {0} NUMBER(s) ago.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! The PLATFORM RING COLOR will help inform you of the directive you are to follow.
+
+-----------
+
+
+Arithmetic Training (U/S)
+Automaton: Level 3 UpdateSwitch - Relational - OneStim,n-back: 1,switch chance: 0.25
+This 'bot's math processor has been damaged. Before it can return to work as a bridge engineer, you need to retrain it in some basic fundamentals.
+
+Lesson 1: Blue Indicator Light
+  - Press LEFT SHIFT if the NUMBER is LESS THAN the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+
+Lesson 2: Red Indicator Light
+  - Reverse Lesson 1
+  - Press RIGHT SHIFT if the NUMBER is LESS THAN the NUMBER you saw {0} NUMBER(s) ago.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! The INDICATOR LIGHTS will help direct you to the lesson you are teaching.
+
+-----------
+
+
+Adv. Arithmetic Training (U/S)
+Automaton: Level 3 UpdateSwitch - Relational - OneStim,n-back: 1,switch chance: 0.25
+Ever since mathematics was removed from all schools and replaced with Hashtag 101 and AP Tweeting, math 'bots have become high demand in the workplace. Train these ocular sensors in basic numerical concepts. Do well, #YODO. 
+
+Lesson 1: Blue Eyepiece Ring
+  - Press LEFT SHIFT if the NUMBER is LESS THAN the NUMBER you saw {0} NUMBER(s) ago.
+  - Press RIGHT SHIFT otherwise.
+
+Lesson 2: Magenta Eyepiece Ring
+  - Reverse Lesson 1
+  - Press RIGHT SHIFT if the NUMBER is LESS THAN the NUMBER you saw {0} NUMBER(s) ago.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! The EYE PIECE RING color will help direct you to the lesson you are teaching.
+
+-----------
+
+
+Biological Itemizing (U/S)
+Automaton: Level 4a UpdateSwitchInhibit,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+The Company has this task for you. I would explain more, but my memory can't hold all if its steps at once.
+
+Task 1: LEFT Viewport
+  - Press LEFT SHIFT if you see an ANIMAL.
+  - Press RIGHT SHIFT if you see a NON-ANIMAL
+
+Task 2: RIGHT Viewport
+  - Press LEFT SHIFT if you see an ODD number.
+  - Press RIGHT SHIFT if you see a EVEN number.
+
+ALERT! Start with Task 1.
+
+If the PICTURE or NUMBER is identical to the PICTURE or NUMBER you saw {0} items ago, switch Task.
+
+If one PICTURE or NUMBER is presented with the yellow ring: When you see the same item again, inhibit that trial.
+
+-----------
+
+
+Reptile Plotting (U/S)
+Automaton: Level 4a UpdateSwitchInhibit,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+This task is too complicated for my CPU to handle. Let's see if your human brain has any luck.
+
+Task 1: LEFT Viewport
+  - Press LEFT SHIFT if the PEG is in the LEFT column.
+  - Press RIGHT SHIFT if the PEG is in the RIGHT column.
+Task 2: RIGHT Viewport
+  - Press LEFT SHIFT if you see a SNAKE.
+  - Press RIGHT SHIFT if you don't see a SNAKE.
+
+ALERT! Start with Task 1.
+
+If the PEG or PICTURE is identical to the PEG or PICTURE you saw {0} items ago, switch Task.
+
+If one PEG or PICTURE is presented with a CYAN room: When you see that PEG or PICTURE is again, inhibit that trial.
+
+-----------
+
+
+Dimensional Jargonization (U/S)
+Automaton: Level 4a UpdateSwitchInhibit V2,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+[bossbot segfault: div by zero]   Oops. Well, good luck.
+
+ALERT: Shape and Orientation of presented objects must both be identical to qualify as a match.
+
+Task 1:
+  - Press LEFT SHIFT if you see a match from {0} trials ago in the LEFT eye.
+  - Press RIGHT SHIFT if you see a match from {0} trials ago in the RIGHT eye
+Task 2:
+  - Reverse Task 1
+   - Press RIGHT SHIFT if you see a match from {0} trials ago in the LEFT eye.
+  - Press LEFT SHIFT if you see a match from {0} trials ago in the RIGHT eye
+ALERT! Start with Task 1.
+
+If an item is presented with a PURPLE ROOM, switch Task.
+If one item is presented with the yellow ring: When you see that item again, inhibit that trial.
+
+-----------
+
+
+Proportional Sympathizing (U/S)
+Automaton: Level 4a UpdateSwitchInhibit V2,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+It's not my job to figure out these tasks for you. Thankfully. You're on your own.
+
+Task 1:
+  - Press LEFT SHIFT if you see a match from {0} trials ago in the LEFT eye.
+  - Press RIGHT SHIFT if you see a match from {0} trials ago in the RIGHT eye.
+
+Task 2:
+  - Reverse Task 1
+   - Press RIGHT SHIFT if you see a match from {0} trials ago in the LEFT eye.
+  - Press LEFT SHIFT if you see a match from {0} trials ago in the RIGHT eye.
+
+ALERT! Start with Task 1.
+
+If an item is presented with a PURPLE ROOM, switch Task.
+If one item is presented with the YELLOW RING: when you see that item again, inhibit that trial.
+
+-----------
+
+
+Algorithmic Comprehension (S/I)
+Automaton: Level 4a SwitchInhibitUpdate V1,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+[bossbot segfault: linker failed]   Excuse me. That's embarrassing. Please, do well.
+
+Task 1: Rooms are PURPLE
+  - Press LEFT SHIFT if you see an ODD number.
+  - Press RIGHT SHIFT if you see an EVEN number.
+Task 2: Rooms are CYAN
+  - Press LEFT SHIFT if you see an ABSTRACT word.
+  - Press RIGHT SHIFT if you see a CONCRETE word.
+
+If an item is presented with the YELLOW RINGS, DO NOT respond.
+
+If a WORD is shown with a MAGENTA ring: UNTIL you see that word again, press RIGHT SHIFT if a word is identical to the word from {0} word(s) ago.
+
+If a NUMBER is shown with a MAGENTA ring: UNTIL you see that number again, press LEFT SHIFT if a number is identical to the number from {0} number(s) ago.
+
+-----------
+
+
+Computational Vocalizations (S/I)
+Automaton: Level 4a SwitchInhibitUpdate V2,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+[file read error: "explanation.txt" not found]   I suppose The Company forgot to supply their reasoning behind this task. I'm sure you'll do fine regardless.
+
+Task 1: Rooms are PURPLE
+  - Press LEFT SHIFT if you see an ODD number.
+  - Press RIGHT SHIFT if you see an EVEN number.
+Task 2: Rooms are CYAN
+  - Press LEFT SHIFT if you see an ABSTRACT word.
+  - Press RIGHT SHIFT if you see a CONCRETE word.
+
+If an item is presented with the YELLOW RINGS, DO NOT respond.
+
+If an item is presented with the MAGENTA ring, UNTIL you see that item again:
+ - Press LEFT SHIFT if the NUMBER matches the number from {0} number(s) ago.
+ - Press RIGHT SHIFT if the WORD matches the word from {0} word(s) ago.
+
+-----------
+
+
+Typographic Trigonometry (U/I)
+Automaton: Level 4a UpdateInhibitSwitch V1,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+Why do this task? Because The Company says to. It's not my fault they didn't design my circuits to understand it.
+
+Task 1: LEFT Viewport
+  - Press LEFT SHIFT if you see an ODD number.
+  - Press RIGHT SHIFT if you see an EVEN number.
+Task 2: RIGHT Viewport
+  - Press LEFT SHIFT if you see a LOWERCASE letter.
+  - Press RIGHT SHIFT if you see an UPPERCASE letter.
+
+ALERT! Start with Task 1.
+
+If an item matches the item seen {0} item(s) ago, DO NOT RESPOND.
+
+If one item is presented with the PURPLE room: UNTIL you see that item again, SWITCH to performing Task 2.
+
+-----------
+
+
+Theoretical Aerodynamics (U/I)
+Automaton: Level 4a UpdateInhibitSwitch V1,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+... Oh sorry, I was thinking about something else. I'm sure you can figure this task out on your own.
+
+Task 1:
+  - Press LEFT SHIFT if you see a FLYING thing.
+  - Press RIGHT SHIFT if you see a NON-FLYING thing.
+Task 2:
+  - Press LEFT SHIFT if you see a CONCRETE word.
+  - Press RIGHT SHIFT if you see an ABSTRACT word.
+
+If a PICTURE or WORD matches the PICTURE or WORD from {0} item(s) ago, INHIBIT that trial.
+
+ALERT! Start with Task 1.
+
+If one item is in a PURPLE ROOM: UNTIL you see that item again, SWITCH to performing Task 2.
+
+-----------
+
+
+Tetromino Groking (U/I)
+Automaton: Level 4a UpdateInhibitSwitch V2,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+[bossbot error: function "whyDoThis()" not found]   This never happens, I swear. We'll try again next time.
+
+ALERT: Shape and Orientation of presented objects must both be identical to qualify as a match.
+Task 1:
+  - Press LEFT SHIFT if the 3D Shape matches the item from {0} item(s) ago.
+  - Press RIGHT SHIFT if the Tetris Block matches the item from {0} item(s) ago.
+Task 2:
+  - Reverse response keys.
+  - RIGHT SHIFT for 3D Shape, LEFT SHIFT for Tetris Block.
+
+ALERT!  If an item is presented with a YELLOW RING, DO NOT RESPOND for that item.
+ALERT!  Start with Task 1.
+
+If one item is in a PURPLE room: UNTIL you see that item again, SWITCH to performing Task 2.
+
+-----------
+
+
+Mammalian Maneuvering (U/I)
+Automaton: Level 4a UpdateInhibitSwitch V2 - 2,n-back: 1,n-back%: 0.33,inhibit%: 0.25,switch%: 0.25
+The Company assures me that you are capable of this task, even if my systems can't process it properly.
+
+Task 1:
+  - Press LEFT SHIFT if PEG location matches the location from {0} PEG(s) ago.
+  - Press RIGHT SHIFT if the ANIMAL is the same as the one from {0} ANIMAL(s) ago.
+Task 2:
+  - Reverse response keys.
+  - RIGHT SHIFT for PEG location, LEFT SHIFT for ANIMAL.
+
+ALERT!  If an item is in a CYAN room, DO NOT RESPOND for that item.
+ALERT!  Start with Task 1.
+
+If one item is shown with a PURPLE RING: UNTIL you see that item again, SWITCH to performing Task 2.
+
+-----------
+
+
+Word/Number Partitioning (U/S)
+Automaton: Level 4a UpdateSwitchInhibit,n-back: 1
+Some things in life are unexplainable. This is one of those things.
+
+Task 1:
+  - Press LEFT SHIFT for WORDS that are VEHICLES.
+  - Press RIGHT SHIFT for WORDS that are not VEHICLES.
+
+Task 2:
+  - Press LEFT SHIFT if you see a NUMBER that is less than 10.
+  - Press RIGHT SHIFT if you see a NUMBER that is greater than 10.
+
+ALERT! Start with Task 1.
+
+If an item is the same as the item from {0} item(s) ago, switch Task.
+If one item is in a PURPLE ROOM: when you see that item again, DO NOT RESPOND.
+
+-----------
+
+
+4b T:1a - rm Prrtzng
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo, 4b variant
+F8iiiila;  j43*m232 . d .
+
+  - Press a SHIFT key for LEGS only if the platform has some feature.
+  - Press THE OTHER SHIFT key otherwise.
+
+  - Press a different SHIFT key for PURPLE PARTS only if the platform has some other feature.
+  - Press THE OTHER SHIFT key otherwise.
+
+  - DON'T press anything if some third feature is present on the platform.
+
+-----------
+
+
+4b T:1b - O_gan Failure?
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo, 4b variant
+[dmocc == 2; ] save_organ = false;
+
+  - Press LEFT SHIFT for ARMS only if the platform has some feature.
+  - Press RIGHT SHIFT otherwise.
+
+  - Press RIGHT SHIFT for YELLOW PARTS only if the platform has some other feature.
+  - Press LEFT SHIFT otherwise.
+
+  - There is an inhibition present in this task.
+
+-----------
+
+
+4b T:1c - AAAAAAAA
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo, 4b variant
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+If the platform has a RED ring:
+  - Press LEFT SHIFT for certain elements.
+  - Press RIGHT SHIFT otherwise.
+
+If the platform has a BLUE ring
+  - Do the opposite of the above.
+
+  - There is an inhibition present in this task.
+
+-----------
+
+
+4b T:2a - Meat-Bag Edition
+Automaton: Level 2 Update/Inhibit Stop-Signal and n-back, 4b variant,n-back: 1, Inhibit% = 0.25
+Youa re st ill a go od p erson.
+
+  - Press LEFT SHIFT if the n_mber is ODD.
+  - Press R!GHT SHIFT if the NUMBER is EVEN.
+  - Don't press ANYTHING SOMETIMES.
+
+-----------
+
+
+4b T:2b - For exceptional testers
+Automaton: Level 2 Update/Inhibit GoNoGo n-back, 4b variant,n-back: 1, match% = 0.33
+
+
+You're going to do this task, but I'm not telling you what it is.
+
+  - Press RIGHT SHIFT for certain things.
+  - Press LEFT SHIFT for other things.
+  - There is an inhibition present in the task. Don't press anything sometimes.
+
+-----------
+
+
+4b T:2c - Extended training
+Automaton: Level 2 Switch/Inhibit ED and GoNoGo, 4b variant
+
+
+If a certain indicator is visible:
+  - Press LEFT SHIFT for one category of images.
+  - Press RIGHT SHIFT otherwise.
+
+If a different indicator is visible:
+  - Press RIGHT SHIFT for a different category of images.
+  - Press LEFT SHIFT otherwise.
+
+ALERT! DON'T press anything if the PICTURE BORDER is RED.
+
+-----------
+
+
+4b T:3a - Specializations
+Automaton: Level 3 Update - xOR, 4b variant,n-back: 1,match% = 0.33
+
+
+  - Press LEFT SHIFT if the current WORD or a WORD from some time ago (but not both) relate to something.
+  - Press RIGHT SHIFT otherwise
+
+
+Good luck.
+
+-----------
+
+
+4b T:3b - Extreme Categorizing
+Automaton: Level 3 Switch - xOR ModeSwitch - OneStim, 4b variant,switch chance: 0.25
+
+Do these:
+Order 1:
+  - Press LEFT SHIFT for VEHICLES.
+  - Press RIGHT SHIFT for NON VEHICLES.
+Order 2:
+  - Press LEFT SHIFT if the NUMBER is EVEN.
+  - Press RIGHT SHIFT if the NUMBER is ODD.
+
+ALERT! Start with Order 1.
+
+You will switch orders sometimes. Pay attention.
+
+-----------
+
+
+4b T:3c - Penultimations
+Automaton: Level 3 Inhibit - Identity - OneStim, 4b variant,inhibit chance: 0.25
+
+
+  - Press LEFT SHIFT for some things.
+  - Press RIGHT SHIFT for the other things.
+
+There is an inhibition in this task. Something about the image will indicate it. DONT PRESS ANYTHING for those items.
+
+-----------
